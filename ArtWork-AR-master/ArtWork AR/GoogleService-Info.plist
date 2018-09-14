@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>685641684364-pe3bvkeph8pq3u86ll7b5vs9brnci2r3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.685641684364-pe3bvkeph8pq3u86ll7b5vs9brnci2r3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBLCJfDSngx07ChEBBLDPXEP8L29ciqW1Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>685641684364</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.perception.ArtWork-AR</string>
+	<key>PROJECT_ID</key>
+	<string>artwork-ar</string>
+	<key>STORAGE_BUCKET</key>
+	<string>artwork-ar.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:685641684364:ios:949d746d20d2490e</string>
+	<key>DATABASE_URL</key>
+	<string>https://artwork-ar.firebaseio.com</string>
+</dict>
+</plist>

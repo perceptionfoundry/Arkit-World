@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84818BCB10840242EC64392D /* Pods_ArtWork_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A291E4C1E1386B1B9852B921 /* Pods_ArtWork_AR.framework */; };
+		F20D2C9C1FBB2A3D00D13D4E /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D2C9B1FBB2A3D00D13D4E /* RegisterVC.swift */; };
+		F2219EC41FB08A7E00A9C7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2219EC31FB08A7E00A9C7A7 /* AppDelegate.swift */; };
+		F2219EC91FB08A7E00A9C7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2219EC71FB08A7E00A9C7A7 /* Main.storyboard */; };
+		F2219ECB1FB08A7E00A9C7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2219ECA1FB08A7E00A9C7A7 /* Assets.xcassets */; };
+		F2219ECE1FB08A7E00A9C7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2219ECC1FB08A7E00A9C7A7 /* LaunchScreen.storyboard */; };
+		F2219ED61FB09F9600A9C7A7 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2219ED51FB09F9600A9C7A7 /* DashboardVC.swift */; };
+		F2219ED81FB09FB500A9C7A7 /* ARViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2219ED71FB09FB500A9C7A7 /* ARViewVC.swift */; };
+		F2219EDA1FB09FD100A9C7A7 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2219ED91FB09FD100A9C7A7 /* SettingVC.swift */; };
+		F235C12D1FBF13BE00BD3E09 /* exhibitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235C12C1FBF13BE00BD3E09 /* exhibitVC.swift */; };
+		F243BF9B1FD042E300866D28 /* customizeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243BF9A1FD042E300866D28 /* customizeSlider.swift */; };
+		F243BF9D1FD044F800866D28 /* ArtProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F243BF9C1FD044F800866D28 /* ArtProfileView.xib */; };
+		F243BF9F1FD0460C00866D28 /* ArtProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243BF9E1FD0460C00866D28 /* ArtProfileView.swift */; };
+		F243BFA21FD047E900866D28 /* thumb down.png in Resources */ = {isa = PBXBuildFile; fileRef = F243BFA01FD047E800866D28 /* thumb down.png */; };
+		F243BFA31FD047E900866D28 /* thumb up.png in Resources */ = {isa = PBXBuildFile; fileRef = F243BFA11FD047E900866D28 /* thumb up.png */; };
+		F24A66781FC2AF99003006C7 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = F24A66761FC2AF99003006C7 /* gallery.png */; };
+		F24A66791FC2AF99003006C7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F24A66771FC2AF99003006C7 /* camera.png */; };
+		F2532C8C20F9C467005D6B52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2532C8B20F9C466005D6B52 /* GoogleService-Info.plist */; };
+		F25D10221FCD364100CC2F42 /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D10211FCD364100CC2F42 /* CustomizeButton.swift */; };
+		F26CC0801FBABD66008BB5F0 /* globalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26CC07F1FBABD66008BB5F0 /* globalSetting.swift */; };
+		F2716BD01FC5C0AF0018711F /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F2716BCF1FC5C0AF0018711F /* frame.png */; };
+		F2716BD21FC5C85D0018711F /* PaneAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2716BD11FC5C85D0018711F /* PaneAnnotation.swift */; };
+		F28AF7AA1FC5A63100105240 /* pane.png in Resources */ = {isa = PBXBuildFile; fileRef = F28AF7A91FC5A63100105240 /* pane.png */; };
+		F29000571FC85BF200C7CBE7 /* makepaneAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29000561FC85BF200C7CBE7 /* makepaneAPI.swift */; };
+		F2AD58A41FBC821A00336B22 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AD58A31FBC821A00336B22 /* MainVC.swift */; };
+		F2B30FCB1FD186E300C7B017 /* CustomizeVFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B30FCA1FD186E300C7B017 /* CustomizeVFX.swift */; };
+		F2B9B12F1FBDE0A5007CEBF8 /* ForgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B9B12E1FBDE0A5007CEBF8 /* ForgetVC.swift */; };
+		F2C2B3AC1FC31D8600989214 /* ArtAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2B3AB1FC31D8600989214 /* ArtAnnotation.swift */; };
+		F2D6BA541FCDB21B00B2C051 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6BA531FCDB21B00B2C051 /* CustomizeView.swift */; };
+		F2D6BA561FCDBB7500B2C051 /* customizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6BA551FCDBB7500B2C051 /* customizeImage.swift */; };
+		F2FAC3341FCEFEFC0063C2B3 /* dashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC3331FCEFEFC0063C2B3 /* dashboardCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CF8D7B7DE2BC6AA8B31E76F /* Pods-ArtWork AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtWork AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtWork AR/Pods-ArtWork AR.release.xcconfig"; sourceTree = "<group>"; };
+		3C82FBC0EC4256338E9ABE7C /* Pods-ArtWork AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtWork AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtWork AR/Pods-ArtWork AR.debug.xcconfig"; sourceTree = "<group>"; };
+		A291E4C1E1386B1B9852B921 /* Pods_ArtWork_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtWork_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D2C9B1FBB2A3D00D13D4E /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F2219EC01FB08A7E00A9C7A7 /* ArtWork AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtWork AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2219EC31FB08A7E00A9C7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2219EC81FB08A7E00A9C7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2219ECA1FB08A7E00A9C7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2219ECD1FB08A7E00A9C7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2219ECF1FB08A7E00A9C7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2219ED51FB09F9600A9C7A7 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		F2219ED71FB09FB500A9C7A7 /* ARViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewVC.swift; sourceTree = "<group>"; };
+		F2219ED91FB09FD100A9C7A7 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		F235C12C1FBF13BE00BD3E09 /* exhibitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exhibitVC.swift; sourceTree = "<group>"; };
+		F243BF9A1FD042E300866D28 /* customizeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizeSlider.swift; sourceTree = "<group>"; };
+		F243BF9C1FD044F800866D28 /* ArtProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtProfileView.xib; sourceTree = "<group>"; };
+		F243BF9E1FD0460C00866D28 /* ArtProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtProfileView.swift; sourceTree = "<group>"; };
+		F243BFA01FD047E800866D28 /* thumb down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb down.png"; sourceTree = "<group>"; };
+		F243BFA11FD047E900866D28 /* thumb up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb up.png"; sourceTree = "<group>"; };
+		F24A66761FC2AF99003006C7 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		F24A66771FC2AF99003006C7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		F2532C8B20F9C466005D6B52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F25D10211FCD364100CC2F42 /* CustomizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
+		F26CC07F1FBABD66008BB5F0 /* globalSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalSetting.swift; sourceTree = "<group>"; };
+		F2716BCF1FC5C0AF0018711F /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		F2716BD11FC5C85D0018711F /* PaneAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneAnnotation.swift; sourceTree = "<group>"; };
+		F28AF7A91FC5A63100105240 /* pane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pane.png; sourceTree = "<group>"; };
+		F29000561FC85BF200C7CBE7 /* makepaneAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makepaneAPI.swift; sourceTree = "<group>"; };
+		F2AD58A31FBC821A00336B22 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F2B30FCA1FD186E300C7B017 /* CustomizeVFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeVFX.swift; sourceTree = "<group>"; };
+		F2B9B12E1FBDE0A5007CEBF8 /* ForgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetVC.swift; sourceTree = "<group>"; };
+		F2C2B3AB1FC31D8600989214 /* ArtAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtAnnotation.swift; sourceTree = "<group>"; };
+		F2D6BA531FCDB21B00B2C051 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		F2D6BA551FCDBB7500B2C051 /* customizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizeImage.swift; sourceTree = "<group>"; };
+		F2FAC3331FCEFEFC0063C2B3 /* dashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2219EBD1FB08A7E00A9C7A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84818BCB10840242EC64392D /* Pods_ArtWork_AR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEE9C5B411D59DFFCA6AE9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A291E4C1E1386B1B9852B921 /* Pods_ArtWork_AR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56B65ACBDEEB396501F755AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C82FBC0EC4256338E9ABE7C /* Pods-ArtWork AR.debug.xcconfig */,
+				1CF8D7B7DE2BC6AA8B31E76F /* Pods-ArtWork AR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2219EB71FB08A7E00A9C7A7 = {
+			isa = PBXGroup;
+			children = (
+				F2219EC21FB08A7E00A9C7A7 /* ArtWork AR */,
+				F2219EC11FB08A7E00A9C7A7 /* Products */,
+				56B65ACBDEEB396501F755AF /* Pods */,
+				1DEE9C5B411D59DFFCA6AE9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2219EC11FB08A7E00A9C7A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2219EC01FB08A7E00A9C7A7 /* ArtWork AR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2219EC21FB08A7E00A9C7A7 /* ArtWork AR */ = {
+			isa = PBXGroup;
+			children = (
+				F243BFA01FD047E800866D28 /* thumb down.png */,
+				F243BFA11FD047E900866D28 /* thumb up.png */,
+				F24A66771FC2AF99003006C7 /* camera.png */,
+				F24A66761FC2AF99003006C7 /* gallery.png */,
+				F2716BCF1FC5C0AF0018711F /* frame.png */,
+				F28AF7A91FC5A63100105240 /* pane.png */,
+				F2F81E1C1FC1A6B200CE9F97 /* image */,
+				F2219EC31FB08A7E00A9C7A7 /* AppDelegate.swift */,
+				F2219EC71FB08A7E00A9C7A7 /* Main.storyboard */,
+				F243BF9C1FD044F800866D28 /* ArtProfileView.xib */,
+				F2219ECA1FB08A7E00A9C7A7 /* Assets.xcassets */,
+				F2219ECC1FB08A7E00A9C7A7 /* LaunchScreen.storyboard */,
+				F2532C8B20F9C466005D6B52 /* GoogleService-Info.plist */,
+				F2219ECF1FB08A7E00A9C7A7 /* Info.plist */,
+				F2AD58A51FBC832A00336B22 /*  Controller */,
+				F2C5AC9D1FC701D200A323BA /* Model */,
+				F2FAC3351FCF003D0063C2B3 /* View */,
+			);
+			path = "ArtWork AR";
+			sourceTree = "<group>";
+		};
+		F2AD58A51FBC832A00336B22 /*  Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2219ED51FB09F9600A9C7A7 /* DashboardVC.swift */,
+				F2219ED71FB09FB500A9C7A7 /* ARViewVC.swift */,
+				F2219ED91FB09FD100A9C7A7 /* SettingVC.swift */,
+				F20D2C9B1FBB2A3D00D13D4E /* RegisterVC.swift */,
+				F2AD58A31FBC821A00336B22 /* MainVC.swift */,
+				F2B9B12E1FBDE0A5007CEBF8 /* ForgetVC.swift */,
+				F235C12C1FBF13BE00BD3E09 /* exhibitVC.swift */,
+			);
+			path = " Controller";
+			sourceTree = "<group>";
+		};
+		F2C5AC9D1FC701D200A323BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F26CC07F1FBABD66008BB5F0 /* globalSetting.swift */,
+				F2C2B3AB1FC31D8600989214 /* ArtAnnotation.swift */,
+				F2716BD11FC5C85D0018711F /* PaneAnnotation.swift */,
+				F29000561FC85BF200C7CBE7 /* makepaneAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F81E1C1FC1A6B200CE9F97 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F2FAC3351FCF003D0063C2B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F25D10211FCD364100CC2F42 /* CustomizeButton.swift */,
+				F2D6BA531FCDB21B00B2C051 /* CustomizeView.swift */,
+				F2D6BA551FCDBB7500B2C051 /* customizeImage.swift */,
+				F2FAC3331FCEFEFC0063C2B3 /* dashboardCell.swift */,
+				F243BF9A1FD042E300866D28 /* customizeSlider.swift */,
+				F243BF9E1FD0460C00866D28 /* ArtProfileView.swift */,
+				F2B30FCA1FD186E300C7B017 /* CustomizeVFX.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2219EBF1FB08A7E00A9C7A7 /* ArtWork AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2219ED21FB08A7E00A9C7A7 /* Build configuration list for PBXNativeTarget "ArtWork AR" */;
+			buildPhases = (
+				5AAF2B6CEAEAAC70F984D15B /* [CP] Check Pods Manifest.lock */,
+				F2219EBC1FB08A7E00A9C7A7 /* Sources */,
+				F2219EBD1FB08A7E00A9C7A7 /* Frameworks */,
+				F2219EBE1FB08A7E00A9C7A7 /* Resources */,
+				EE2CC9BF2657F2E1A045A716 /* [CP] Embed Pods Frameworks */,
+				F81568E779918ABCB12DE301 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArtWork AR";
+			productName = "ArtWork AR";
+			productReference = F2219EC01FB08A7E00A9C7A7 /* ArtWork AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2219EB81FB08A7E00A9C7A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Syed ShahRukh Haider";
+				TargetAttributes = {
+					F2219EBF1FB08A7E00A9C7A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2219EBB1FB08A7E00A9C7A7 /* Build configuration list for PBXProject "ArtWork AR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2219EB71FB08A7E00A9C7A7;
+			productRefGroup = F2219EC11FB08A7E00A9C7A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2219EBF1FB08A7E00A9C7A7 /* ArtWork AR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2219EBE1FB08A7E00A9C7A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2219ECE1FB08A7E00A9C7A7 /* LaunchScreen.storyboard in Resources */,
+				F2219ECB1FB08A7E00A9C7A7 /* Assets.xcassets in Resources */,
+				F24A66781FC2AF99003006C7 /* gallery.png in Resources */,
+				F2219EC91FB08A7E00A9C7A7 /* Main.storyboard in Resources */,
+				F2716BD01FC5C0AF0018711F /* frame.png in Resources */,
+				F24A66791FC2AF99003006C7 /* camera.png in Resources */,
+				F243BFA21FD047E900866D28 /* thumb down.png in Resources */,
+				F243BF9D1FD044F800866D28 /* ArtProfileView.xib in Resources */,
+				F2532C8C20F9C467005D6B52 /* GoogleService-Info.plist in Resources */,
+				F243BFA31FD047E900866D28 /* thumb up.png in Resources */,
+				F28AF7AA1FC5A63100105240 /* pane.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AAF2B6CEAEAAC70F984D15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtWork AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2CC9BF2657F2E1A045A716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArtWork AR/Pods-ArtWork AR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtWork AR/Pods-ArtWork AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81568E779918ABCB12DE301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtWork AR/Pods-ArtWork AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2219EBC1FB08A7E00A9C7A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243BF9F1FD0460C00866D28 /* ArtProfileView.swift in Sources */,
+				F2C2B3AC1FC31D8600989214 /* ArtAnnotation.swift in Sources */,
+				F2219ED81FB09FB500A9C7A7 /* ARViewVC.swift in Sources */,
+				F2B9B12F1FBDE0A5007CEBF8 /* ForgetVC.swift in Sources */,
+				F243BF9B1FD042E300866D28 /* customizeSlider.swift in Sources */,
+				F26CC0801FBABD66008BB5F0 /* globalSetting.swift in Sources */,
+				F2219EDA1FB09FD100A9C7A7 /* SettingVC.swift in Sources */,
+				F20D2C9C1FBB2A3D00D13D4E /* RegisterVC.swift in Sources */,
+				F2FAC3341FCEFEFC0063C2B3 /* dashboardCell.swift in Sources */,
+				F2AD58A41FBC821A00336B22 /* MainVC.swift in Sources */,
+				F25D10221FCD364100CC2F42 /* CustomizeButton.swift in Sources */,
+				F2219ED61FB09F9600A9C7A7 /* DashboardVC.swift in Sources */,
+				F29000571FC85BF200C7CBE7 /* makepaneAPI.swift in Sources */,
+				F2B30FCB1FD186E300C7B017 /* CustomizeVFX.swift in Sources */,
+				F2219EC41FB08A7E00A9C7A7 /* AppDelegate.swift in Sources */,
+				F2716BD21FC5C85D0018711F /* PaneAnnotation.swift in Sources */,
+				F2D6BA541FCDB21B00B2C051 /* CustomizeView.swift in Sources */,
+				F2D6BA561FCDBB7500B2C051 /* customizeImage.swift in Sources */,
+				F235C12D1FBF13BE00BD3E09 /* exhibitVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2219EC71FB08A7E00A9C7A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2219EC81FB08A7E00A9C7A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2219ECC1FB08A7E00A9C7A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2219ECD1FB08A7E00A9C7A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2219ED01FB08A7E00A9C7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2219ED11FB08A7E00A9C7A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2219ED31FB08A7E00A9C7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C82FBC0EC4256338E9ABE7C /* Pods-ArtWork AR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = "ArtWork AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perception.ArtWork-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2219ED41FB08A7E00A9C7A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF8D7B7DE2BC6AA8B31E76F /* Pods-ArtWork AR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = "ArtWork AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perception.ArtWork-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2219EBB1FB08A7E00A9C7A7 /* Build configuration list for PBXProject "ArtWork AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2219ED01FB08A7E00A9C7A7 /* Debug */,
+				F2219ED11FB08A7E00A9C7A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2219ED21FB08A7E00A9C7A7 /* Build configuration list for PBXNativeTarget "ArtWork AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2219ED31FB08A7E00A9C7A7 /* Debug */,
+				F2219ED41FB08A7E00A9C7A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2219EB81FB08A7E00A9C7A7 /* Project object */;
+}

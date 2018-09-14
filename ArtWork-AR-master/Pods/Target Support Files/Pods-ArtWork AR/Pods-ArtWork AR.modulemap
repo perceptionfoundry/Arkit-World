@@ -1,0 +1,6 @@
+framework module Pods_ArtWork_AR {
+  umbrella header "Pods-ArtWork AR-umbrella.h"
+
+  export *
+  module * { export * }
+}
