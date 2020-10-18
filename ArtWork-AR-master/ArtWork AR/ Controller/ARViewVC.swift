@@ -37,6 +37,8 @@ class ARViewVC: UIViewController,ARSCNViewDelegate,UIImagePickerControllerDelega
         ARsceneview.delegate = self
         
         ARsceneview.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+        
+        
         // disable label & button
         actionButton.isHidden =  true
         PlaneStatus.isHidden = true
@@ -62,6 +64,9 @@ class ARViewVC: UIViewController,ARSCNViewDelegate,UIImagePickerControllerDelega
         print(locationManager.location?.coordinate.latitude, locationManager.location?.coordinate.longitude)
 
     }
+    
+    
+    
 
     override func viewWillAppear(_ animated: Bool) {
         let configuration = ARWorldTrackingConfiguration()
@@ -110,23 +115,6 @@ class ARViewVC: UIViewController,ARSCNViewDelegate,UIImagePickerControllerDelega
         
     }
     
-//    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
-//        if anchor is ARPlaneAnchor{
-//
-//            let planeAnchor = anchor as! ARPlaneAnchor
-//
-//            let planeNode = node.childNodes.first
-//
-//            let plane = planeNode?.geometry as! SCNPlane
-//
-//            planeNode?.simdPosition = simd_float3(planeAnchor.center.x, 0, planeAnchor.center.z)
-//
-//            plane.width = CGFloat(planeAnchor.extent.x)
-//            plane.height = CGFloat(planeAnchor.extent.z)
-//
-//
-//        }
-//    }
 
     
     

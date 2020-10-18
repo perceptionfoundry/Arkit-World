@@ -122,36 +122,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
             return
         }
         plane?.update(updateAnchor: anchor as! ARPlaneAnchor)
-        
-        //        print("update")
-        //                if anchor is ARPlaneAnchor{
-        //
-        //                    let plane = anchor as! ARPlaneAnchor
-        //                    self.floorGrid.width = CGFloat(plane.extent.x)
-        //                    self.floorGrid.height = CGFloat(plane.extent.z)
-        //
-        //                    node.position = SCNVector3(plane.center.x, 0, plane.center.z)
-        //
-        //
-        //                }
-        
-        //        let floor = Floors.filter { (plane) -> Bool in
-        //            return plane.identifier == anchor.identifier
-        //        }.first
-        //
-        //        if floor == nil{
-        //            return
-        //        }
-        //
-        //        if let updateFloor = floor {
-        //
-        //        self.floorGrid.width = CGFloat(updateFloor.extent.x)
-        //        self.floorGrid.height = CGFloat(updateFloor.extent.z)
-        //
-        //            node.position = SCNVector3(updateFloor.center.x,0, updateFloor.center.z)
-        //
-        //
-        //        }
+     
     }
     
     @objc func tapped (recognizer: UITapGestureRecognizer){

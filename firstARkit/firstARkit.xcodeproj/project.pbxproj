@@ -13,6 +13,7 @@
 		F2DE416C1F7E391A0049A6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DE416A1F7E391A0049A6D4 /* Main.storyboard */; };
 		F2DE416E1F7E391A0049A6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DE416D1F7E391A0049A6D4 /* Assets.xcassets */; };
 		F2DE41711F7E391A0049A6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DE416F1F7E391A0049A6D4 /* LaunchScreen.storyboard */; };
+		F2E2C22722C270BE008ADFB7 /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2E2C22522C270BE008ADFB7 /* testModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F2DE416D1F7E391A0049A6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DE41701F7E391A0049A6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DE41721F7E391A0049A6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E2C22622C270BE008ADFB7 /* testModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F2DE416D1F7E391A0049A6D4 /* Assets.xcassets */,
 				F2DE416F1F7E391A0049A6D4 /* LaunchScreen.storyboard */,
 				F2DE41721F7E391A0049A6D4 /* Info.plist */,
+				F2E2C22522C270BE008ADFB7 /* testModel.xcdatamodeld */,
 			);
 			path = firstARkit;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E2C22722C270BE008ADFB7 /* testModel.xcdatamodeld in Sources */,
 				F2DE41691F7E391A0049A6D4 /* ViewController.swift in Sources */,
 				F2DE41651F7E391A0049A6D4 /* AppDelegate.swift in Sources */,
 			);
@@ -328,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2E2C22522C270BE008ADFB7 /* testModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2E2C22622C270BE008ADFB7 /* testModel.xcdatamodel */,
+			);
+			currentVersion = F2E2C22622C270BE008ADFB7 /* testModel.xcdatamodel */;
+			path = testModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2DE41591F7E391A0049A6D4 /* Project object */;
 }

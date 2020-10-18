@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BD8184253C41E90029379C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD8183253C41E90029379C /* AppDelegate.swift */; };
+		F2BD8186253C41E90029379C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD8185253C41E90029379C /* art.scnassets */; };
+		F2BD8188253C41E90029379C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD8187253C41E90029379C /* ViewController.swift */; };
+		F2BD818B253C41E90029379C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD8189253C41E90029379C /* Main.storyboard */; };
+		F2BD818D253C41EA0029379C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD818C253C41EA0029379C /* Assets.xcassets */; };
+		F2BD8190253C41EA0029379C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD818E253C41EA0029379C /* LaunchScreen.storyboard */; };
+		F2BD819E253C43870029379C /* ik.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD8198253C43850029379C /* ik.mp4 */; };
+		F2BD819F253C43870029379C /* fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD8199253C43850029379C /* fire.mp4 */; };
+		F2BD81A0253C43870029379C /* hawk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD819A253C43850029379C /* hawk.mp4 */; };
+		F2BD81A1253C43870029379C /* market.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD819B253C43860029379C /* market.mp4 */; };
+		F2BD81A2253C43870029379C /* mobile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD819C253C43860029379C /* mobile.mp4 */; };
+		F2BD81A3253C43870029379C /* nz.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BD819D253C43870029379C /* nz.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2BD8180253C41E90029379C /* ARKIT_NEWSPAPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKIT_NEWSPAPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD8183253C41E90029379C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BD8185253C41E90029379C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F2BD8187253C41E90029379C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BD818A253C41E90029379C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BD818C253C41EA0029379C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BD818F253C41EA0029379C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BD8191253C41EA0029379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BD8198253C43850029379C /* ik.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ik.mp4; sourceTree = "<group>"; };
+		F2BD8199253C43850029379C /* fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fire.mp4; sourceTree = "<group>"; };
+		F2BD819A253C43850029379C /* hawk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hawk.mp4; sourceTree = "<group>"; };
+		F2BD819B253C43860029379C /* market.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = market.mp4; sourceTree = "<group>"; };
+		F2BD819C253C43860029379C /* mobile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobile.mp4; sourceTree = "<group>"; };
+		F2BD819D253C43870029379C /* nz.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nz.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BD817D253C41E90029379C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BD8177253C41E90029379C = {
+			isa = PBXGroup;
+			children = (
+				F2BD8182253C41E90029379C /* ARKIT_NEWSPAPER */,
+				F2BD8181253C41E90029379C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BD8181253C41E90029379C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD8180253C41E90029379C /* ARKIT_NEWSPAPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BD8182253C41E90029379C /* ARKIT_NEWSPAPER */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD8199253C43850029379C /* fire.mp4 */,
+				F2BD819A253C43850029379C /* hawk.mp4 */,
+				F2BD8198253C43850029379C /* ik.mp4 */,
+				F2BD819B253C43860029379C /* market.mp4 */,
+				F2BD819C253C43860029379C /* mobile.mp4 */,
+				F2BD819D253C43870029379C /* nz.mp4 */,
+				F2BD8183253C41E90029379C /* AppDelegate.swift */,
+				F2BD8185253C41E90029379C /* art.scnassets */,
+				F2BD8187253C41E90029379C /* ViewController.swift */,
+				F2BD8189253C41E90029379C /* Main.storyboard */,
+				F2BD818C253C41EA0029379C /* Assets.xcassets */,
+				F2BD818E253C41EA0029379C /* LaunchScreen.storyboard */,
+				F2BD8191253C41EA0029379C /* Info.plist */,
+			);
+			path = ARKIT_NEWSPAPER;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BD817F253C41E90029379C /* ARKIT_NEWSPAPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BD8194253C41EA0029379C /* Build configuration list for PBXNativeTarget "ARKIT_NEWSPAPER" */;
+			buildPhases = (
+				F2BD817C253C41E90029379C /* Sources */,
+				F2BD817D253C41E90029379C /* Frameworks */,
+				F2BD817E253C41E90029379C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKIT_NEWSPAPER;
+			productName = ARKIT_NEWSPAPER;
+			productReference = F2BD8180253C41E90029379C /* ARKIT_NEWSPAPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BD8178253C41E90029379C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F2BD817F253C41E90029379C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F2BD817B253C41E90029379C /* Build configuration list for PBXProject "ARKIT_NEWSPAPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BD8177253C41E90029379C;
+			productRefGroup = F2BD8181253C41E90029379C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BD817F253C41E90029379C /* ARKIT_NEWSPAPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BD817E253C41E90029379C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BD819E253C43870029379C /* ik.mp4 in Resources */,
+				F2BD819F253C43870029379C /* fire.mp4 in Resources */,
+				F2BD8186253C41E90029379C /* art.scnassets in Resources */,
+				F2BD81A0253C43870029379C /* hawk.mp4 in Resources */,
+				F2BD8190253C41EA0029379C /* LaunchScreen.storyboard in Resources */,
+				F2BD81A3253C43870029379C /* nz.mp4 in Resources */,
+				F2BD81A1253C43870029379C /* market.mp4 in Resources */,
+				F2BD818D253C41EA0029379C /* Assets.xcassets in Resources */,
+				F2BD818B253C41E90029379C /* Main.storyboard in Resources */,
+				F2BD81A2253C43870029379C /* mobile.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BD817C253C41E90029379C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BD8188253C41E90029379C /* ViewController.swift in Sources */,
+				F2BD8184253C41E90029379C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2BD8189253C41E90029379C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BD818A253C41E90029379C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BD818E253C41EA0029379C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BD818F253C41EA0029379C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BD8192253C41EA0029379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2BD8193253C41EA0029379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BD8195253C41EA0029379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6TP86K6GF;
+				INFOPLIST_FILE = ARKIT_NEWSPAPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pf.ARKIT-NEWSPAPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BD8196253C41EA0029379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6TP86K6GF;
+				INFOPLIST_FILE = ARKIT_NEWSPAPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pf.ARKIT-NEWSPAPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BD817B253C41E90029379C /* Build configuration list for PBXProject "ARKIT_NEWSPAPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BD8192253C41EA0029379C /* Debug */,
+				F2BD8193253C41EA0029379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BD8194253C41EA0029379C /* Build configuration list for PBXNativeTarget "ARKIT_NEWSPAPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BD8195253C41EA0029379C /* Debug */,
+				F2BD8196253C41EA0029379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BD8178253C41E90029379C /* Project object */;
+}

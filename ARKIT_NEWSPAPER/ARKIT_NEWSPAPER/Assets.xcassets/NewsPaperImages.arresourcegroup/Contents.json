@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "fire.arreferenceimage"
+    },
+    {
+      "filename" : "hawk.arreferenceimage"
+    },
+    {
+      "filename" : "ik.arreferenceimage"
+    },
+    {
+      "filename" : "market.arreferenceimage"
+    },
+    {
+      "filename" : "mobile.arreferenceimage"
+    },
+    {
+      "filename" : "nz.arreferenceimage"
+    }
+  ]
+}
