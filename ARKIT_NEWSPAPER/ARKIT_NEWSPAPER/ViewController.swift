@@ -97,6 +97,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             videoNode = SKVideoNode(fileNamed: "market.mp4")
         }else if imageTitle == "mobile"{
             videoNode = SKVideoNode(fileNamed: "mobile.mp4")
+        }else if imageTitle == "harrypotter"{
+            videoNode = SKVideoNode(fileNamed: "harrypotter.mp4")
+
         }
         
         videoNode.play()

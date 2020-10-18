@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2AAB3A2253CC1CF0014C56D /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2AAB3A1253CC1CF0014C56D /* harrypotter.mp4 */; };
 		F2BD8184253C41E90029379C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD8183253C41E90029379C /* AppDelegate.swift */; };
 		F2BD8186253C41E90029379C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD8185253C41E90029379C /* art.scnassets */; };
 		F2BD8188253C41E90029379C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD8187253C41E90029379C /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2AAB3A1253CC1CF0014C56D /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
 		F2BD8180253C41E90029379C /* ARKIT_NEWSPAPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKIT_NEWSPAPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD8183253C41E90029379C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BD8185253C41E90029379C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		F2BD8182253C41E90029379C /* ARKIT_NEWSPAPER */ = {
 			isa = PBXGroup;
 			children = (
+				F2AAB3A1253CC1CF0014C56D /* harrypotter.mp4 */,
 				F2BD8199253C43850029379C /* fire.mp4 */,
 				F2BD819A253C43850029379C /* hawk.mp4 */,
 				F2BD8198253C43850029379C /* ik.mp4 */,
@@ -144,6 +147,7 @@
 			files = (
 				F2BD819E253C43870029379C /* ik.mp4 in Resources */,
 				F2BD819F253C43870029379C /* fire.mp4 in Resources */,
+				F2AAB3A2253CC1CF0014C56D /* harrypotter.mp4 in Resources */,
 				F2BD8186253C41E90029379C /* art.scnassets in Resources */,
 				F2BD81A0253C43870029379C /* hawk.mp4 in Resources */,
 				F2BD8190253C41EA0029379C /* LaunchScreen.storyboard in Resources */,
