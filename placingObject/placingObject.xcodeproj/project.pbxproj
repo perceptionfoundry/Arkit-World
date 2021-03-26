@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2BEA7F82576AFC100F30963 /* bubble.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7F72576AFC100F30963 /* bubble.usdz */; };
+		F2BEA7FF2576AFDC00F30963 /* adidas_PNG17.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7FA2576AFDB00F30963 /* adidas_PNG17.png */; };
+		F2BEA8002576AFDC00F30963 /* starbucks-coffee-logo-vector-png-23.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7FB2576AFDC00F30963 /* starbucks-coffee-logo-vector-png-23.png */; };
+		F2BEA8012576AFDC00F30963 /* McDonald's_1968_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7FC2576AFDC00F30963 /* McDonald's_1968_logo.png */; };
+		F2BEA8022576AFDC00F30963 /* 58737bd3f3a71010b5e8ef37.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7FD2576AFDC00F30963 /* 58737bd3f3a71010b5e8ef37.png */; };
+		F2BEA8032576AFDC00F30963 /* bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEA7FE2576AFDC00F30963 /* bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png */; };
 		F2D971E11F8D15B100606929 /* overlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D971E01F8D15B100606929 /* overlayPlane.swift */; };
 		F2E394281F8BAF2C008BB187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E394271F8BAF2C008BB187 /* AppDelegate.swift */; };
 		F2E3942A1F8BAF2C008BB187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E394291F8BAF2C008BB187 /* ViewController.swift */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2BEA7F72576AFC100F30963 /* bubble.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = bubble.usdz; sourceTree = "<group>"; };
+		F2BEA7FA2576AFDB00F30963 /* adidas_PNG17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adidas_PNG17.png; sourceTree = "<group>"; };
+		F2BEA7FB2576AFDC00F30963 /* starbucks-coffee-logo-vector-png-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbucks-coffee-logo-vector-png-23.png"; sourceTree = "<group>"; };
+		F2BEA7FC2576AFDC00F30963 /* McDonald's_1968_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "McDonald's_1968_logo.png"; sourceTree = "<group>"; };
+		F2BEA7FD2576AFDC00F30963 /* 58737bd3f3a71010b5e8ef37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58737bd3f3a71010b5e8ef37.png; sourceTree = "<group>"; };
+		F2BEA7FE2576AFDC00F30963 /* bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png; sourceTree = "<group>"; };
 		F2D971E01F8D15B100606929 /* overlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overlayPlane.swift; sourceTree = "<group>"; };
 		F2E394241F8BAF2C008BB187 /* placingObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placingObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E394271F8BAF2C008BB187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +91,12 @@
 		F2E394391F8BB057008BB187 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				F2BEA7F72576AFC100F30963 /* bubble.usdz */,
+				F2BEA7FD2576AFDC00F30963 /* 58737bd3f3a71010b5e8ef37.png */,
+				F2BEA7FA2576AFDB00F30963 /* adidas_PNG17.png */,
+				F2BEA7FE2576AFDC00F30963 /* bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png */,
+				F2BEA7FC2576AFDC00F30963 /* McDonald's_1968_logo.png */,
+				F2BEA7FB2576AFDC00F30963 /* starbucks-coffee-logo-vector-png-23.png */,
 				F2E394421F8BC8BF008BB187 /* brick.jpg */,
 				F2E394411F8BC8BF008BB187 /* ice.jpg */,
 				F2E394401F8BC8BF008BB187 /* tennisball.jpg */,
@@ -149,10 +167,16 @@
 				F2E394321F8BAF2C008BB187 /* LaunchScreen.storyboard in Resources */,
 				F2E3943B1F8BB088008BB187 /* grid.png in Resources */,
 				F2E394451F8BC8BF008BB187 /* brick.jpg in Resources */,
+				F2BEA7F82576AFC100F30963 /* bubble.usdz in Resources */,
+				F2BEA7FF2576AFDC00F30963 /* adidas_PNG17.png in Resources */,
 				F2E3942F1F8BAF2C008BB187 /* Assets.xcassets in Resources */,
+				F2BEA8022576AFDC00F30963 /* 58737bd3f3a71010b5e8ef37.png in Resources */,
 				F2E394441F8BC8BF008BB187 /* ice.jpg in Resources */,
 				F2E394431F8BC8BF008BB187 /* tennisball.jpg in Resources */,
+				F2BEA8012576AFDC00F30963 /* McDonald's_1968_logo.png in Resources */,
 				F2E3942D1F8BAF2C008BB187 /* Main.storyboard in Resources */,
+				F2BEA8032576AFDC00F30963 /* bffdbb41d7b1ec6a3e46ef2d6bd1fa3b.png in Resources */,
+				F2BEA8002576AFDC00F30963 /* starbucks-coffee-logo-vector-png-23.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				DEVELOPMENT_TEAM = 4CZP9C7L6H;
 				INFOPLIST_FILE = placingObject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perception.placingObject;
@@ -318,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				DEVELOPMENT_TEAM = 4CZP9C7L6H;
 				INFOPLIST_FILE = placingObject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perception.placingObject;

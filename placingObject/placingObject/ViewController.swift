@@ -106,7 +106,7 @@ class ViewController: UIViewController,ARSCNViewDelegate {
             case 2:
                 let prism = SCNPyramid(width: 0.2, height: 0.2, length: 0.2)
                 let prismMaterial = SCNMaterial()
-                prismMaterial.diffuse.contents = ("resources/brick.jpg")
+                prismMaterial.diffuse.contents = ("resources/bubble.usdz")
                 prism.firstMaterial = prismMaterial
                 
                 let prismNode = SCNNode(geometry : prism)
