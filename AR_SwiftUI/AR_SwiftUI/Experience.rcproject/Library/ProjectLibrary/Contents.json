@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "024625cd68659d67d5cef124c54b5a7e",
+    "format" : "model",
+    "displayName" : "caffe_latte.usdz"
+  },
+  {
+    "libraryIdentifier" : "c3d7c27e25a3e7031e746f4dc2eada83",
+    "format" : "model",
+    "displayName" : "fender_stratocaster.usdz"
+  },
+  {
+    "libraryIdentifier" : "69e9a494942b17db16ec53176e1b5e0e",
+    "format" : "model",
+    "displayName" : "hab_en.reality"
+  },
+  {
+    "libraryIdentifier" : "4fa9d237d56c98073970387ef4097926",
+    "format" : "model",
+    "displayName" : "robot_walk_idle.usdz"
+  }
+]

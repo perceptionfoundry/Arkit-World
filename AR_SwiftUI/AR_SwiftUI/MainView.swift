@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct MainView: View {
+    @State var item = "caffe"
     var body: some View {
         VStack {
-          ARViewRepresent()
+            ARViewRepresent(selectedItem: $item)
                 .ignoresSafeArea()
         }
         .overlay(alignment: .top) {
             Text("AR_APP")
                 .foregroundColor(.white)
+        }
+        .overlay(alignment: .bottom) {
+            HStack{
+                Button {
+                    item = "caffe"
+                } label: {
+                    Text("Caffe")
+                }
+                
+                Button {
+                    item = "guitar"
+                } label: {
+                    Text("guitar")
+                }
+                Button {
+                    item = "space"
+                } label: {
+                    Text("space")
+                }
+                
+            }
         }
        
     }

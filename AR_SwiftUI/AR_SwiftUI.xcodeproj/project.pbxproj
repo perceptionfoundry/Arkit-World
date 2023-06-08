@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F23651E22A27C29600773649 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F25E8ADF2A27C0EC00906384 /* Experience.rcproject */; };
+		F23793902A275FF80025A99D /* caffe_latte.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F237938F2A275FF80025A99D /* caffe_latte.usdz */; };
+		F298F4D12A287C8600836FEC /* Experience2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F298F4D02A287AC500836FEC /* Experience2.rcproject */; };
 		F2F431792A2711D200B5F5C7 /* AR_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F431782A2711D200B5F5C7 /* AR_SwiftUIApp.swift */; };
 		F2F4317B2A2711D200B5F5C7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4317A2A2711D200B5F5C7 /* MainView.swift */; };
 		F2F4317D2A2711D400B5F5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F4317C2A2711D400B5F5C7 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F237938F2A275FF80025A99D /* caffe_latte.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = caffe_latte.usdz; sourceTree = "<group>"; };
+		F25E8ADF2A27C0EC00906384 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		F298F4D02A287AC500836FEC /* Experience2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience2.rcproject; sourceTree = "<group>"; };
 		F2F431752A2711D200B5F5C7 /* AR_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F431782A2711D200B5F5C7 /* AR_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F2F4317A2A2711D200B5F5C7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -59,7 +65,10 @@
 				F2F4317A2A2711D200B5F5C7 /* MainView.swift */,
 				F2F431862A27120500B5F5C7 /* ARViewRepresent.swift */,
 				F2F4317C2A2711D400B5F5C7 /* Assets.xcassets */,
+				F237938F2A275FF80025A99D /* caffe_latte.usdz */,
 				F2F4317E2A2711D500B5F5C7 /* Preview Content */,
+				F25E8ADF2A27C0EC00906384 /* Experience.rcproject */,
+				F298F4D02A287AC500836FEC /* Experience2.rcproject */,
 			);
 			path = AR_SwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 			files = (
 				F2F431802A2711D500B5F5C7 /* Preview Assets.xcassets in Resources */,
 				F2F4317D2A2711D400B5F5C7 /* Assets.xcassets in Resources */,
+				F23793902A275FF80025A99D /* caffe_latte.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +160,8 @@
 			files = (
 				F2F4317B2A2711D200B5F5C7 /* MainView.swift in Sources */,
 				F2F431792A2711D200B5F5C7 /* AR_SwiftUIApp.swift in Sources */,
+				F23651E22A27C29600773649 /* Experience.rcproject in Sources */,
+				F298F4D12A287C8600836FEC /* Experience2.rcproject in Sources */,
 				F2F431872A27120500B5F5C7 /* ARViewRepresent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
