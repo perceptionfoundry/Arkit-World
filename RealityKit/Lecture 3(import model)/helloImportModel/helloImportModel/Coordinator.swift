@@ -19,6 +19,8 @@ class Coordinator: NSObject,ARSessionDelegate{
         
         guard let view = self.view else{return}
         
+      guard view.scene.anchors.first(where: {$0.name == "suit"}) == nil else{return}
+        
         let tapLocation = recognizer.location(in: view)
         
         let results = view.raycast(from: tapLocation, allowing: .estimatedPlane, alignment: .horizontal)
@@ -40,6 +42,7 @@ class Coordinator: NSObject,ARSessionDelegate{
                     }
                     self.cancellable?.cancel()
                 } receiveValue: { entity in
+                    anchor.name = "suit"
                     anchor.addChild(entity)
                 }
 
